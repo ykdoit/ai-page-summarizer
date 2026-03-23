@@ -1,0 +1,27 @@
+{
+  "name": "ai-page-summarizer",
+  "version": "1.0.0",
+  "description": "AI 驱动的网页内容总结与语音播报助手",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development & vite build -c vite.config.content.ts --watch --mode development",
+    "build": "vite build && vite build -c vite.config.content.ts",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "markdown-it": "^14.1.1",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@types/markdown-it": "^14.1.2",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
