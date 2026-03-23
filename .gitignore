@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-ai-page-summarizer/dist/
+dist/
 
 # IDE
 .idea/
@@ -25,3 +25,8 @@ npm-debug.log*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Chrome extension package files
+*.crx
+*.pem
+*.zip

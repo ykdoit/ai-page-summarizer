@@ -34,6 +34,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    modulePreload: { polyfill: false },
     rollupOptions: {
       input: {
         sidepanel: resolve(__dirname, 'sidepanel.html'),
